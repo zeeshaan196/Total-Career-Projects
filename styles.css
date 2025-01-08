@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/309235800/original/242c365ebfc1e4c6e27cc26734872ff942205547/design-poster-for-your-film-movies-and-tv-shows.png');
+  background-size: contain;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+h1 {
+  background-color: black;
+  border-radius: 30%;
+  color: lightpink;
+  font-weight: bolder;
+  font-family: cursive;
+  text-decoration:underline wavy;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+
+#movieDetails {
+  margin-top: 20px;
+  color: black;
+  align-items: self-end;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.movie {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: left;
+}
+
+.movie img {
+  max-width: 100%;
+  border-radius: 25%;
+  height: auto;
+}
+
+.movie p {
+  margin: 5px 0;
+  background-color: white;
+}
+
+.navbar{
+  box-shadow: 0 0 18px rgba(225, 213, 213, 0.607);
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 20%;
+  text-decoration: none;
+}
+
+.navbar-nav a {
+  color: rgb(229, 222, 222);
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  position: relative;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  color: blueviolet;
+}
+
+.navbar-nav a::after {
+  content: '';
+  height: 2px;
+  width: 0;
+  background: coral;
+  position: absolute;
+  left: 0;
+  border-radius: 50px;
+  bottom: -3px;
+  transition: 0.5s;
+}
+
+.navbar-nav a:hover:after {
+  width: 100%;
+}
+
+
+.header-content .header-content-line {
+  color: white;
+}
+
+.header-content-para {
+  color: rgb(26, 69, 113);
+}
+
+
+.header-content h2 {
+  letter-spacing: 1px;
+}
