@@ -1,0 +1,157 @@
+/* Styles for desktop or larger screens */
+body {
+  font-size: 16px;
+  /* Other desktop styles here */
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    /* Other tablet styles here */
+  }
+}
+
+/* Phone styles */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    /* Other phone styles here */
+  }
+}
+
+h1 {
+    text-decoration: underline wavy;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 1s;
+  }
+
+  footer a:hover {
+    color: #00bcd4; /* Change the color to your desired hover color */
+  }
+
+  body {
+   background-image: url(https://media4.giphy.com/media/3oEjHB1EKuujDjYFWw/giphy.gif?cid=ecf05e471vwlmgdg8t9cv9z1x42nywsgt4sav31usceflmbx&ep=v1_gifs_search&rid=giphy.gif&ct=g) ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+  /*body {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+ body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}*/
+/*.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.login-container button {
+    background-color: lightsalmon;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}*/
+
+div {
+  background-color: lightgreen;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  border-radius: 15px;
+  padding-top: 2px;
+  margin: 50px 50px;
+  border-color: 2px black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div:hover {
+  background-color: pink;
+  transition: background-color 2s ;
+  border-radius: 50%;
+  transition: border-radius  2s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+
+img:hover {
+  color: #333;
+}
+H1 {
+  text-align: center;
+}
+section {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightsalmon;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section:hover {
+  transition: background-color 3s;
+}
+ul {
+  padding: 5px 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#skills div {
+width: 100px;
+height: 150px;
+padding: 10px 10px;
+transition: margin-left 3s;
+
+}
+#skills:hover div {
+  margin-left: 100px;
+}
+
+
+
